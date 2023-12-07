@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B78440BD2B22735A0038B53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78440BC2B22735A0038B53B /* AppDelegate.swift */; };
+		B78440BF2B22735A0038B53B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78440BE2B22735A0038B53B /* SceneDelegate.swift */; };
+		B78440C12B22735A0038B53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78440C02B22735A0038B53B /* ViewController.swift */; };
+		B78440C42B22735A0038B53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78440C22B22735A0038B53B /* Main.storyboard */; };
+		B78440C62B22735B0038B53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78440C52B22735B0038B53B /* Assets.xcassets */; };
+		B78440C92B22735B0038B53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78440C72B22735B0038B53B /* LaunchScreen.storyboard */; };
+		B78440D42B22735C0038B53B /* popPhysicsSimStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78440D32B22735C0038B53B /* popPhysicsSimStoryboardTests.swift */; };
+		B78440DE2B22735C0038B53B /* popPhysicsSimStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78440DD2B22735C0038B53B /* popPhysicsSimStoryboardUITests.swift */; };
+		B78440E02B22735C0038B53B /* popPhysicsSimStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78440DF2B22735C0038B53B /* popPhysicsSimStoryboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78440D02B22735C0038B53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78440B12B22735A0038B53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78440B82B22735A0038B53B;
+			remoteInfo = popPhysicsSimStoryboard;
+		};
+		B78440DA2B22735C0038B53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78440B12B22735A0038B53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78440B82B22735A0038B53B;
+			remoteInfo = popPhysicsSimStoryboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B78440B92B22735A0038B53B /* popPhysicsSimStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popPhysicsSimStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78440BC2B22735A0038B53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B78440BE2B22735A0038B53B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B78440C02B22735A0038B53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B78440C32B22735A0038B53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B78440C52B22735B0038B53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78440C82B22735B0038B53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78440CA2B22735B0038B53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78440CF2B22735C0038B53B /* popPhysicsSimStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popPhysicsSimStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78440D32B22735C0038B53B /* popPhysicsSimStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPhysicsSimStoryboardTests.swift; sourceTree = "<group>"; };
+		B78440D92B22735C0038B53B /* popPhysicsSimStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popPhysicsSimStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78440DD2B22735C0038B53B /* popPhysicsSimStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPhysicsSimStoryboardUITests.swift; sourceTree = "<group>"; };
+		B78440DF2B22735C0038B53B /* popPhysicsSimStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPhysicsSimStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78440B62B22735A0038B53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78440CC2B22735C0038B53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78440D62B22735C0038B53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B78440B02B22735A0038B53B = {
+			isa = PBXGroup;
+			children = (
+				B78440BB2B22735A0038B53B /* popPhysicsSimStoryboard */,
+				B78440D22B22735C0038B53B /* popPhysicsSimStoryboardTests */,
+				B78440DC2B22735C0038B53B /* popPhysicsSimStoryboardUITests */,
+				B78440BA2B22735A0038B53B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78440BA2B22735A0038B53B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78440B92B22735A0038B53B /* popPhysicsSimStoryboard.app */,
+				B78440CF2B22735C0038B53B /* popPhysicsSimStoryboardTests.xctest */,
+				B78440D92B22735C0038B53B /* popPhysicsSimStoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78440BB2B22735A0038B53B /* popPhysicsSimStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				B78440BC2B22735A0038B53B /* AppDelegate.swift */,
+				B78440BE2B22735A0038B53B /* SceneDelegate.swift */,
+				B78440C02B22735A0038B53B /* ViewController.swift */,
+				B78440C22B22735A0038B53B /* Main.storyboard */,
+				B78440C52B22735B0038B53B /* Assets.xcassets */,
+				B78440C72B22735B0038B53B /* LaunchScreen.storyboard */,
+				B78440CA2B22735B0038B53B /* Info.plist */,
+			);
+			path = popPhysicsSimStoryboard;
+			sourceTree = "<group>";
+		};
+		B78440D22B22735C0038B53B /* popPhysicsSimStoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B78440D32B22735C0038B53B /* popPhysicsSimStoryboardTests.swift */,
+			);
+			path = popPhysicsSimStoryboardTests;
+			sourceTree = "<group>";
+		};
+		B78440DC2B22735C0038B53B /* popPhysicsSimStoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B78440DD2B22735C0038B53B /* popPhysicsSimStoryboardUITests.swift */,
+				B78440DF2B22735C0038B53B /* popPhysicsSimStoryboardUITestsLaunchTests.swift */,
+			);
+			path = popPhysicsSimStoryboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78440B82B22735A0038B53B /* popPhysicsSimStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78440E32B22735C0038B53B /* Build configuration list for PBXNativeTarget "popPhysicsSimStoryboard" */;
+			buildPhases = (
+				B78440B52B22735A0038B53B /* Sources */,
+				B78440B62B22735A0038B53B /* Frameworks */,
+				B78440B72B22735A0038B53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popPhysicsSimStoryboard;
+			productName = popPhysicsSimStoryboard;
+			productReference = B78440B92B22735A0038B53B /* popPhysicsSimStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78440CE2B22735C0038B53B /* popPhysicsSimStoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78440E62B22735C0038B53B /* Build configuration list for PBXNativeTarget "popPhysicsSimStoryboardTests" */;
+			buildPhases = (
+				B78440CB2B22735C0038B53B /* Sources */,
+				B78440CC2B22735C0038B53B /* Frameworks */,
+				B78440CD2B22735C0038B53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78440D12B22735C0038B53B /* PBXTargetDependency */,
+			);
+			name = popPhysicsSimStoryboardTests;
+			productName = popPhysicsSimStoryboardTests;
+			productReference = B78440CF2B22735C0038B53B /* popPhysicsSimStoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78440D82B22735C0038B53B /* popPhysicsSimStoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78440E92B22735C0038B53B /* Build configuration list for PBXNativeTarget "popPhysicsSimStoryboardUITests" */;
+			buildPhases = (
+				B78440D52B22735C0038B53B /* Sources */,
+				B78440D62B22735C0038B53B /* Frameworks */,
+				B78440D72B22735C0038B53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78440DB2B22735C0038B53B /* PBXTargetDependency */,
+			);
+			name = popPhysicsSimStoryboardUITests;
+			productName = popPhysicsSimStoryboardUITests;
+			productReference = B78440D92B22735C0038B53B /* popPhysicsSimStoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78440B12B22735A0038B53B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B78440B82B22735A0038B53B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B78440CE2B22735C0038B53B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B78440B82B22735A0038B53B;
+					};
+					B78440D82B22735C0038B53B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B78440B82B22735A0038B53B;
+					};
+				};
+			};
+			buildConfigurationList = B78440B42B22735A0038B53B /* Build configuration list for PBXProject "popPhysicsSimStoryboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78440B02B22735A0038B53B;
+			productRefGroup = B78440BA2B22735A0038B53B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78440B82B22735A0038B53B /* popPhysicsSimStoryboard */,
+				B78440CE2B22735C0038B53B /* popPhysicsSimStoryboardTests */,
+				B78440D82B22735C0038B53B /* popPhysicsSimStoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78440B72B22735A0038B53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78440C92B22735B0038B53B /* LaunchScreen.storyboard in Resources */,
+				B78440C62B22735B0038B53B /* Assets.xcassets in Resources */,
+				B78440C42B22735A0038B53B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78440CD2B22735C0038B53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78440D72B22735C0038B53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78440B52B22735A0038B53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78440C12B22735A0038B53B /* ViewController.swift in Sources */,
+				B78440BD2B22735A0038B53B /* AppDelegate.swift in Sources */,
+				B78440BF2B22735A0038B53B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78440CB2B22735C0038B53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78440D42B22735C0038B53B /* popPhysicsSimStoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78440D52B22735C0038B53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78440DE2B22735C0038B53B /* popPhysicsSimStoryboardUITests.swift in Sources */,
+				B78440E02B22735C0038B53B /* popPhysicsSimStoryboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78440D12B22735C0038B53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78440B82B22735A0038B53B /* popPhysicsSimStoryboard */;
+			targetProxy = B78440D02B22735C0038B53B /* PBXContainerItemProxy */;
+		};
+		B78440DB2B22735C0038B53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78440B82B22735A0038B53B /* popPhysicsSimStoryboard */;
+			targetProxy = B78440DA2B22735C0038B53B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B78440C22B22735A0038B53B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78440C32B22735A0038B53B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B78440C72B22735B0038B53B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78440C82B22735B0038B53B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78440E12B22735C0038B53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B78440E22B22735C0038B53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78440E42B22735C0038B53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = popPhysicsSimStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = babel.popPhysicsSimStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B78440E52B22735C0038B53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = popPhysicsSimStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = babel.popPhysicsSimStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B78440E72B22735C0038B53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = babel.popPhysicsSimStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popPhysicsSimStoryboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/popPhysicsSimStoryboard";
+			};
+			name = Debug;
+		};
+		B78440E82B22735C0038B53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = babel.popPhysicsSimStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popPhysicsSimStoryboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/popPhysicsSimStoryboard";
+			};
+			name = Release;
+		};
+		B78440EA2B22735C0038B53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = babel.popPhysicsSimStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = popPhysicsSimStoryboard;
+			};
+			name = Debug;
+		};
+		B78440EB2B22735C0038B53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = babel.popPhysicsSimStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = popPhysicsSimStoryboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78440B42B22735A0038B53B /* Build configuration list for PBXProject "popPhysicsSimStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78440E12B22735C0038B53B /* Debug */,
+				B78440E22B22735C0038B53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78440E32B22735C0038B53B /* Build configuration list for PBXNativeTarget "popPhysicsSimStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78440E42B22735C0038B53B /* Debug */,
+				B78440E52B22735C0038B53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78440E62B22735C0038B53B /* Build configuration list for PBXNativeTarget "popPhysicsSimStoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78440E72B22735C0038B53B /* Debug */,
+				B78440E82B22735C0038B53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78440E92B22735C0038B53B /* Build configuration list for PBXNativeTarget "popPhysicsSimStoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78440EA2B22735C0038B53B /* Debug */,
+				B78440EB2B22735C0038B53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B78440B12B22735A0038B53B /* Project object */;
+}
